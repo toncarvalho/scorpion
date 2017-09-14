@@ -16,4 +16,10 @@
 --
 
 -- You can use this file to load seed data into the database using SQL statements
-insert into Registrant(id, name, email, phone_number) values (0, 'John Smith', 'john.smith@mailinator.com', '2125551212') 
+insert into Registrant(id, name, email, phone_number) values (0, 'John Smith', 'john.smith@mailinator.com', '554198060607') ;
+insert into Registrant(id, name, email, phone_number) values (1, 'Ton Carvalho', 'toncarvalho@gmail.com', '554178877887') ;
+insert into Registrant(id, name, email, phone_number) values (2, 'Rebeca Carvalho', 'rebeca@gmail.com', '554178999999') ;
+insert into Registrant(id, name, email, phone_number) values (3, 'Andreia Carvalho', 'andreia@gmail.com', '554178877777') ;
+insert into Registrant(id, name, email, phone_number) values (4, 'Deborah Carvalho', 'deborah@gmail.com', '554199335034') ;
+insert into Registrant(id, name, email, phone_number) values (5, 'Ju Piovani', 'jupiovani@gmail.com', '554198899999') ;
+insert into Registrant(id, name, email, phone_number) values (6, 'Lena', 'lena@gmail.com', '554198060607') ;

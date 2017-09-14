@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+	<script type="text/javascript" src="scripts/ajaxcode.js">	</script>
+	<script type="text/javascript" src="scripts/principal.js">	</script>
+	<link href="css/normalize.css" rel="stylesheet" type="text/css"/>
+	<link href="css/geral.css" rel="stylesheet" type="text/css"/>
+	<link href="css/links.css" rel="stylesheet" type="text/css"/>
+	
+	
+	
+</head>
+
+
+<body>
+    <form>
+
+        <section>
+            <fieldset>
+
+                <div style="width: 25%">
+                    <label for="edtCodigo">Codigo:</label>
+                    <input type="text" name="codigo" id="edtCodigo" autofocus>
+                </div>
+
+                <div>
+                    <label for="edtNome">Nome:</label>
+                    <input type="text" name="nome" id="edtNome">
+                </div>
+
+                <div>
+                    <label for="edtEmail">Email:</label>
+                    <input type="email" name="email" id="edtEmail">
+
+                </div>
+
+                <div style="width: 25%">
+                    <label for="edtFone">Fone:</label>
+                    <input type="tel" name="email" id="edtFone">
+                </div>
+                <div style="width: 25%">
+                    <label for="edtStatus">Status:</label>
+                    <input type="tel" name="email" id="edtStatus">
+                </div>
+            </fieldset>
+
+            <footer>
+                <input type="button" name="btnSalvar" id="btnSalvar" value="Salvar " onclick="salvar()" />
+            </footer>
+
+        </section>
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+[{
+    "id": 1,
+    "name": "Ton",
+    "email": "toncarvalho@gmail.com",
+    "phoneNumber": "554198060607"
+}, {
+    "id": 2,
+    "name": "Segundo",
+    "email": "segundo@gmail.com",
+    "phoneNumber": "554198060607"
+}, {
+    "id": 3,
+    "name": "Terceiro",
+    "email": "terceiro@gmail.com",
+    "phoneNumber": "554178877887"
+}, {
+    "id": 4,
+    "name": "Quarto",
+    "email": "quarto@gmail.com",
+    "phoneNumber": "554189988988"
+}, {
+    "id": 5,
+    "name": "Quinto",
+    "email": "quinto@gmail.com",
+    "phoneNumber": "554155555555"
+}, {
+    "id": 6,
+    "name": "Sexto",
+    "email": "sexto@gmail.com",
+    "phoneNumber": "554118887788"
+}, {
+    "id": 7,
+    "name": "Sétimo",
+    "email": "setimo@gmail.com",
+    "phoneNumber": "54188888888"
+}]
