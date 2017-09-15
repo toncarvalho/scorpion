@@ -1,4 +1,3 @@
-
 function loadDoc() {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
@@ -61,7 +60,7 @@ function myFunction(xmlhttp) {
 
 
         novaLinha += "<td class=colunaSelecao> ";
-        novaLinha += "<input type=submit value=Alterar  onclick=abrirPopUpEditar()>";
+        novaLinha += "<input type=button value=Alterar  onclick=abrirPopUpEditar(".concat(obj.id) + ")>";
         novaLinha += "</td>";
 
 
@@ -79,7 +78,8 @@ function myFunction(xmlhttp) {
     tabela += "</table>";
 
     document.getElementById("tabela").innerHTML = tabela;
-    
+
+
 
 
 }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <script type="text/javascript" src="scripts/principal.js">
+    </script>
+    <script type="text/javascript" src="scripts/ajaxcode.js"></script>
+    <link href="css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="css/geral.css" rel="stylesheet" type="text/css" />
+    <link href="css/links.css" rel="stylesheet" type="text/css" />
+    <link href="css/tabelas.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+
+<body onload="aoAbrirForm()">
+    <form id="formCadastro">
+
+        <section>
+            <fieldset>
+
+                <div style="width: 25%">
+                    <label for="edtCodigo">Codigo:</label>
+                    <input type="text" name="edtCodigo" id="edtCodigo" autofocus form="formCadastro">
+                </div>
+
+                <div>
+                    <label for="edtNome">Nome:</label>
+                    <input type="text" name="edtNome" id="edtNome" form="formCadastro">
+                </div>
+
+                <div>
+                    <label for="edtEmail">Email:</label>
+                    <input type="email" name="edtEmail" id="edtEmail" form="formCadastro">
+
+                </div>
+
+                <div style="width: 25%">
+                    <label for="edtFone">Fone:</label>
+                    <input type="tel" name="edtFone" id="edtFone" form="formCadastro">
+                </div>
+
+            </fieldset>
+
+            <footer>
+                <input type="button" name="btnSalvar" id="btnSalvar" value="Salvar " onclick="salvar()" form="formCadastro" />
+            </footer>
+
+        </section>
+
+    </form>
+</body>
+
+</html>

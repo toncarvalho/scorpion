@@ -1,0 +1,33 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 99%;
+    margin: 5px;
+    letter-spacing: 1px;
+    padding-left: 4px;
+}
+
+td {
+    vertical-align: bottom;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+tr:hover {
+    background-color: lightskyblue;
+}
+
+.colunaSelecao {
+    width: 1px;
+}
