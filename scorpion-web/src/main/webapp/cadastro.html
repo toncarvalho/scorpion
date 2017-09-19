@@ -11,6 +11,8 @@
     <link href="css/geral.css" rel="stylesheet" type="text/css" />
     <link href="css/links.css" rel="stylesheet" type="text/css" />
     <link href="css/tabelas.css" rel="stylesheet" type="text/css" />
+    <link href="css/layout-forms.css" rel="stylesheet" type="text/css" />
+    <link href="css/meusInputs.css" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -19,28 +21,62 @@
     <form id="formCadastro">
 
         <section>
-            <fieldset>
+            <fieldset class="flex-container-vertical">
 
-                <div style="width: 25%">
+                <div class="flex-item">
                     <label for="edtCodigo">Codigo:</label>
                     <input type="text" name="edtCodigo" id="edtCodigo" autofocus form="formCadastro">
                 </div>
 
-                <div>
+                <div class="flex-item">
                     <label for="edtNome">Nome:</label>
                     <input type="text" name="edtNome" id="edtNome" form="formCadastro">
                 </div>
 
-                <div>
-                    <label for="edtEmail">Email:</label>
-                    <input type="email" name="edtEmail" id="edtEmail" form="formCadastro">
+                <div class="flex-container-horizontal">
 
+                    <div class="flex-item item-email">
+                        <label for="edtEmail">Email:</label>
+                        <input type="email" name="edtEmail" id="edtEmail" form="formCadastro" style="width: 90%">
+                    </div>
+
+
+                    <div class="flex-item item-fone">
+                        <label for="edtFone">Fone:</label>
+                        <input type="tel" name="edtFone" id="edtFone" form="formCadastro" style="width: 80%">
+                    </div>
+
+                    <div>
+
+
+
+            </fieldset>
+
+
+            <fieldset class="flex-container-vertical">
+
+                <div class="flex-item">
+                    <label for="edtLogradouro">Logradouro:</label>
+                    <input type="text" name="edtLogradouro" id="edtLogradouro" autofocus form="formCadastro">
                 </div>
 
-                <div style="width: 25%">
-                    <label for="edtFone">Fone:</label>
-                    <input type="tel" name="edtFone" id="edtFone" form="formCadastro">
+                <div class="flex-item">
+                    <label for="edtBairro">Bairro:</label>
+                    <input type="text" name="edtBairro" id="edtBairro" form="formCadastro">
                 </div>
+
+
+                <div class="flex-item">
+                    <label for="edtLocalidade">Localidade:</label>
+                    <input type="text" name="edtLocalidade" id="edtLocalidade" form="formCadastro">
+                </div>
+
+
+                <div class="flex-item">
+                    <label for="edtCep">Cep:</label>
+                    <input type="number" name="edtCep" id="edtCep" form="formCadastro">
+                </div>
+
 
             </fieldset>
 

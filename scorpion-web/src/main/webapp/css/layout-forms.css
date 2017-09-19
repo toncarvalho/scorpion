@@ -1,0 +1,38 @@
+.flex-container-vertical {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+    width: 800px;
+    height: 50%;
+}
+
+.flex-container-horizontal {
+    display: -webkit-flex;
+    display: flex;
+    width: 800px;
+    height: 50%;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+}
+
+.flex-item {
+    width: 50%;
+    height: 60px;
+    margin: 4px;
+    -webkit-align-self: flex-start;
+    align-self: flex-start;
+    margin: 4px;
+}
+
+.item-email {
+    width: 65%;
+}
+
+.item-fone {
+    width: 35%;
+}
